@@ -21,7 +21,7 @@ removeImagesButton.addEventListener("click", function () {
 });
 
 async function getData(searchTerm) {
-	const response = await axios.get("http://api.giphy.com/v1/gifs/search", {
+	const response = await axios.get("https://api.giphy.com/v1/gifs/search", {
 		params: {
 			q: searchTerm,
 			api_key: "1l35KL70QuF1ra2st1j9X5TpQVksHATN",
